@@ -3,8 +3,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 
-os.environ['HF_TOKEN']="E"
-os.environ['HUGGINGFACEHUB_API_TOKEN']=""
+#os.environ['HF_TOKEN']=""
+#os.environ['HUGGINGFACEHUB_API_TOKEN']=""
 
 
 model_id = "meta-llama/Llama-3.1-8B-Instruct" 
