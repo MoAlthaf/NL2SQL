@@ -4,11 +4,14 @@ import time
 from vllm import LLM, SamplingParams
 import pandas as pd
 from transformers import AutoTokenizer
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
 
 # Set threading layer early
 os.environ["MKL_THREADING_LAYER"] = "GNU"
-os.environ['HF_TOKEN'] = "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"
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = os.environ['HF_TOKEN']
+os.environ['HF_TOKEN'] = os.getenv("API_KEY")
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = os.getenv("API_KEY")
 
 
 # === Change model and tokenizer here ===

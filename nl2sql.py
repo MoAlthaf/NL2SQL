@@ -5,10 +5,13 @@ import pandas as pd
 from vllm import LLM, SamplingParams
 from transformers import AutoTokenizer
 from sql_utils import run_all  # Ensure this is available in your path
+from dotenv import load_dotenv
+
+load_dotenv() 
 
 # Set environment
 os.environ["MKL_THREADING_LAYER"] = "GNU"
-os.environ['HF_TOKEN'] = "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"
+os.environ['HF_TOKEN'] = os.getenv("API_KEY")
 
 
 # === Change model and tokenizer here ===
