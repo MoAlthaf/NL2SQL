@@ -6,5 +6,5 @@ database/
 
 #Python cache
 __pycache__/
-.ipynbs_checkpoints/
+.ipynb_checkpoints/
 
