@@ -43,10 +43,10 @@ python main.py
 
 ##  Environment & Dependencies
 
--Python: 3.12.9
--Conda version: 4.8.2
--GPU: P100 2x 16GB (peak usage ~26GB)
--Runtime: ~4 hours for full run
--Requirements: See requirements.txt
+- Python: 3.12.9
+- Conda version: 4.8.2
+- GPU: P100 2x 16GB (peak usage ~26GB)
+- Runtime: ~4 hours for full run
+- Requirements: See requirements.txt
 
 ---
