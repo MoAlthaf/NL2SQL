@@ -1,53 +1,52 @@
-## NL2NL & NL2SQL Paraphrasing and SQL Generation Pipeline
+# NL2SQL: Natural Language to SQL via LLMs
 
-This project provides a two-stage pipeline for:
+## Task Description
 
-1. **Paraphrasing natural language questions** about databases (NL2NL)
-2. **Generating and verifying SQL queries** from those questions (NL2SQL)
+This project implements a two-stage pipeline using large language models (LLMs) to translate natural language questions into executable SQL queries.
 
-### How it works
+1. **NL2NL** (Paraphrasing): The original natural language question is rewritten to improve clarity and model compatibility.
+2. **NL2SQL** (SQL Generation): The paraphrased question and schema are used to generate a SQL query using a decoder-based LLM.
 
-- **Stage 1 (NL2NL):**
-  - `nl2nl.py` takes a dataset of prompts and paraphrases each question using a large language model (LLM), ensuring the meaning and SQL intent are preserved.
-  - Output: `outputs/output_paraphrased.csv` with paraphrased questions.
-
-- **Stage 2 (NL2SQL):**
-  - `nl2sql.py` takes the paraphrased questions and generates SQL queries using another LLM.
-  - It then verifies the generated SQL against ground truth using actual database execution and result comparison.
-  - Output: `results.csv` with generated SQL, match status, and attempt count.
-
-### How to run
-
-1. **Prepare your environment:**
-   - Install dependencies from `requirements.txt` (Python 3.8+ recommended).
-   - Ensure you have access to a GPU (minimum: 24GB VRAM).
-   - Place your database files in the `database/` directory as required.
-
-2. **Run the pipeline:**
-   - **Option 1: Run each stage manually**
-     - Step 1: Paraphrase questions
-       ```bash
-       python nl2nl.py
-       ```
-     - Step 2: Generate and verify SQL
-       ```bash
-       python nl2sql.py
-       ```
-   - **Option 2: Run the full pipeline with one command**
-     - This will run both stages and handle dataset setup and GPU cache clearing automatically:
-       ```bash
-       python main.py
-       ```
-
-### Design
-
-- The pipeline is modular: you can run each stage independently.
-- Both scripts use LLMs (configurable at the top of each script) and require a GPU for efficient inference.
-- Results are saved as CSV files for easy analysis.
-
-### Minimum GPU Requirements
-
-- At least one NVIDIA GPU with 16GB VRAM (e.g., V100, A100, or better) is recommended for smooth LLM inference.
+This project is built on top of the [Spider dataset](https://yale-lily.github.io/spider/) and uses the `vllm` inference engine for efficient LLM serving.
 
 ---
-For more details, see comments in each script.
+
+## Overall Input
+
+- **Dataset**: JSON files from the Spider dataset (`train_spider.json`, `dev.json`, etc.)
+- **Format**: Each row includes a natural language question, its associated SQL, and the schema (pipe-separated).
+- **Location**: All inputs are located under `data/raw/` and processed to `data/processed/`.
+
+---
+
+##  Overall Output
+
+- **Main output**: `results.csv` (in `results/`)
+- **Contains**:
+  - Original question
+  - Paraphrased question
+  - Ground truth SQL
+  - Generated SQL
+  - attempts
+  - DB ID
+  - attempts
+
+
+---
+
+##  How to Run
+
+```bash
+python main.py
+
+---
+
+##  Environment & Dependencies
+
+-Python: 3.12.9
+-Conda version: 4.8.2
+-GPU: P100 2x 16GB (peak usage ~26GB)
+-Runtime: ~4 hours for full run
+-Requirements: See requirements.txt
+
+---
