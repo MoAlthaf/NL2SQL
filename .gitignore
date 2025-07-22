@@ -13,5 +13,5 @@ src/__pycache__/
 #tests
 test/
 
-#logs
-outputs/
+#logs/outputs
+outputs/output.txt
