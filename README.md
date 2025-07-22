@@ -38,7 +38,7 @@ This project is built on top of the [Spider dataset](https://yale-lily.github.io
 
 ```bash
 python main.py
-
+```
 ---
 
 ##  Environment & Dependencies
