@@ -1,0 +1,51 @@
+original_nl,paraphrased_nl,isParaphrasing_error
+What are the distinct types of mills that are built by American or Canadian architects?,What are the unique types of mills constructed by architects from either the United States or Canada?,False
+Count the number of Annual Meeting events that took place in the region of the United Kingdom.,What is the total count of Annual Meeting events that occurred within the region of the United Kingdom?,False
+What are the first name and last name of the players who were paid salary by team Washington Nationals in both 2005 and 2007?,What are the first name and last name of the players who were paid salary by team Washington Nationals in both 2005 and 2007?,Same
+How many states that have some college students playing in the mid position but not in the goalie position.,What are the states that have at least one college with students participating in the mid position but not in the goalie position?,False
+Please give me a list of cities whose regional population is over 8000000 or under 5000000.,"What are the cities with a regional population greater than 8,000,000 or less than 5,000,000?",False
+when were most NIPS papers published ?,What year did the majority of NIPS papers appear in?,False
+Who sent most number of packages? List client name and number of packages sent by that client.,"What are the names of the clients who have sent the highest number of packages, along with the total count of packages each of them has sent?",False
+where is a jamerican cuisine in san francisco ?,What restaurants serving Jamaican cuisine are located in San Francisco?,False
+What are the maximum and minimum resolution of songs whose duration is 3 minutes?,What are the highest and lowest resolution values of songs that have a duration of 3 minutes?,False
+What are the names of all parent collections of the collection named Nice?,What are the names of the parent collections of the collection with the name 'Nice'?,False
+Find the name of customers who have loans of both Mortgages and Auto.,What are the names of customers who have taken out both Mortgage and Auto loans?,False
+what states does the shortest river run through,Which states do the rivers with the shortest lengths pass through?,False
+monte carlo simulation later than 2011,What papers have used Monte Carlo simulation after the year 2011?,False
+"What are the wifi and screen mode type of the hardware model named ""LG-P760""?","What are the WiFi and screen mode types for the hardware model with the name ""LG-P760""?",False
+Show all the distinct president votes made on 08/30/2015.,"What are the unique president votes that occurred on August 30, 2015?",False
+What are the ids of the documents that are not parent documents?,What are the document object IDs of the documents that do not have a parent document object ID.,False
+give me a good restaurant in the bay area ?,What are the names of highly rated restaurants in the Bay Area region?,False
+What are the names of properties that are either houses or apartments with more than 1 room?,What are the names of the properties that are either houses or apartments and have a room count greater than one?,False
+List the amount and date of loan for the students who have two or more achievements.,What are the loan amounts and dates for students who have achieved at least two different accomplishments?,False
+What is the average price for products with type Clothes?,What are the average prices of products belonging to the product type category?,True
+who published the most papers in CVPR 2007,What authors have written the highest number of papers in the CVPR 2007 conference?,False
+Find all the stores in the district with the most population.,What districts have the highest population and which stores are located in those districts?,False
+papers by Richard Ladner published at chi,What papers were published at CHI by Richard Ladner?,False
+Find all the forenames of distinct drivers who won in position 1 as driver standing and had more than 20 points?,What are the distinct forenames of drivers who finished in first place in the driver standings and earned more than 20 points?,False
+What are the names of the stations that are located in Palo Alto but have never been the ending point of the trips,What are the names of the stations in Palo Alto that have never been the destination of any bike trip?,False
+What is the average grade of students who have friends?,What students with friends have an average grade?,True
+What is the total number of professors with a Ph.D. ?,What are the total counts of professors who hold a doctoral degree?,False
+What is the id of the oldest painting?,What is the painting with the earliest creation year?,True
+List id of documents that in collection named Best but not in document subset Best for 2000.,What are the document IDs that belong to a collection called Best but are not part of the document subset named Best for the year 2000?,False
+how many papers use ImageNet ?,What datasets are associated with papers that use ImageNet?,True
+What is the maker of the carr produced in the earliest year and what year was it?,What are the car makers and the years of the earliest models produced?,False
+Return the maximum final tables made across all poker players who have earnings below 200000.,What is the highest number of final tables achieved by each poker player who has earnings less than 200000?,False
+What is the nickname of the institution with the smallest enrollment?,Which institution has the lowest enrollment and what is its nickname?,True
+Compute the total salary that the player with first name Len and last name Barker received between 1985 to 1990.,Compute the total salary that the player with first name Len and last name Barker received between 1985 to 1990.,Same
+What are the appelations for wines produced after 2008 but not in the Central Coast area?,What are the appelations of wines that were produced in a year later than 2008 but not in the Central Coast region?,False
+Most recent deep learning conference ?,What is the most recent conference that focuses on deep learning?,False
+How many type of governments are in Africa?,What are the different government forms found in the continent of Africa?,False
+Which dogs are of the rarest breed? Show their names and treatment dates.,What breeds have the lowest frequency of occurrence and list the names of the dogs belonging to these breeds along with the dates they received any treatment.,False
+"Show the id and the product type for all products, order by product name.","What products do we have, and what type are they, sorted by their names?",True
+What is the film title and inventory id of the item in the inventory which was rented most frequently?,What are the film titles and inventory IDs of the items that have been rented the most often?,False
+What are the product ids for the problems reported by Christop Berge with closure authorised by Ashley Medhurst?,What products are associated with the problems that were reported by Christop Berge and closed by Ashley Medhurst?,True
+"What are the addresses, towns, and county information for all customers who live in the United States?","What are the addresses, towns, and counties for every customer whose country of residence is the United States?",False
+What is the average number of people injured by all perpetrators?,What is the mean total number of individuals harmed by all perpetrators?,False
+Return the rank for which there are the fewest captains.,What is the rank with the lowest number of associated captains?,False
+where is a good restaurant on buchanan in san francisco for arabic food ?,What are the names of good restaurants in San Francisco on Buchanan that serve Arabic food?,False
+Which police forces operate in both counties that are located in the East and in the West?,What law enforcement agencies serve in both counties situated in the Eastern region and those located in the Western region?,False
+"Return the date of birth for all the guests with gender code ""Male"".",What are the dates of birth for all the male guests?,False
+What is the mobile phone number of the student named Timmothy Ward ?,What are the cell mobile numbers of students whose first name is Timmothy and last name is Ward ?,False
+What is the id and name of the department store that has both marketing and managing department?,What are the department store IDs and names that have both marketing and managing departments assigned to them?,False
+Find name of the services that has never been used.,What services have been utilized by no one.,False
